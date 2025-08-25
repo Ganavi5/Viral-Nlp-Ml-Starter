@@ -27,3 +27,4 @@ Starter scaffold to reproduce a simple version of the paper's idea: **k-mer toke
 5. The trained model and vectorizer will be saved under `models/` and basic metrics in `reports/`.
 
 > Tip: This repo is organized as a light, hackable baseline you can extend (e.g., try different k, add more classifiers, or switch to char n-grams). Read `src/train.py` to see the whole pipeline.
+# Viral-Nlp-Ml-Starter
