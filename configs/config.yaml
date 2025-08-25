@@ -1,0 +1,18 @@
+# Basic experiment config
+k: 6
+
+vectorizer:
+  lowercase: true
+  min_df: 1
+  max_features: null
+
+clf:
+  name: knn
+  grid:
+    n_neighbors: [3, 5, 7]
+    weights: ["uniform", "distance"]
+    metric: ["minkowski"]
+
+cv: 10
+test_size: 0.2
+random_state: 42
